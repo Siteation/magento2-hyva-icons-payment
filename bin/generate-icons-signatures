@@ -1,0 +1,32 @@
+#!/usr/bin/env php
+
+<?php
+
+function dashesToCamelCase($string, $capitalizeFirstCharacter = false)
+{
+    $str = str_replace(' ', '', ucwords(str_replace('-', ' ', $string)));
+    if (!$capitalizeFirstCharacter) {
+        $str[0] = strtolower($str[0]);
+    }
+
+    return $str;
+}
+
+$iconPath = "view/frontend/web/svg/payment";
+$dir = dirname(__DIR__, 1) . "/" . $iconPath;
+$icons = array_diff(scandir($dir), array('..', '.'));
+$outputPath = dirname(__DIR__, 1) . "/bin/interface-icons.txt";
+
+// Clean up file first
+file_put_contents($outputPath, "");
+
+// Create interface code
+foreach ($icons as &$icon) {
+    $icon = str_replace('.svg', '', $icon);
+
+    $string = " * @method string "
+        . dashesToCamelCase($icon)
+        . "Html(string \$classnames = '', ?int \$width = 24, ?int \$height = 24, array \$attributes = [])";
+
+    file_put_contents($outputPath, $string . "\n", FILE_APPEND);
+}

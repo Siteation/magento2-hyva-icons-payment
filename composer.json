@@ -1,0 +1,31 @@
+{
+  "name": "siteation/magento2-hyva-icons-payment",
+  "version": "1.0.6",
+  "license": "MIT",
+  "type": "magento2-module",
+  "description": "Payment icons for Hyva Themes",
+  "keywords": [
+    "magento2",
+    "magento2-module",
+    "magento2-hyva",
+    "paymenticons"
+  ],
+  "authors": [
+    {
+      "name": "Siteation",
+      "email": "info@siteation.dev",
+      "homepage": "https://www.siteation.dev"
+    }
+  ],
+  "require": {
+    "hyva-themes/magento2-theme-module": ">=1.1.12"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Siteation\\HyvaIconsPayment\\": ""
+    }
+  }
+}

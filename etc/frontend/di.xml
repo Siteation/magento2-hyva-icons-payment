@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<config
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd"
+>
+    <type name="Siteation\HyvaIconsPayment\ViewModel\PaymentIcons">
+        <arguments>
+            <argument name="iconPathPrefix" xsi:type="string">Siteation_HyvaIconsPayment::svg/payment</argument>
+        </arguments>
+    </type>
+    <type name="Hyva\Theme\ViewModel\SvgIcons">
+        <arguments>
+            <argument name="pathPrefixMapping" xsi:type="array">
+                <item name="payment" xsi:type="string">Siteation_HyvaIconsPayment::svg/payment</item>
+            </argument>
+        </arguments>
+    </type>
+</config>
