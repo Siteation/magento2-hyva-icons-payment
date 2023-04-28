@@ -5,13 +5,23 @@
 >
     <type name="Siteation\HyvaIconsPayment\ViewModel\PaymentIcons">
         <arguments>
-            <argument name="iconPathPrefix" xsi:type="string">Siteation_HyvaIconsPayment::svg/payment</argument>
+            <argument name="iconPathPrefix" xsi:type="string">Siteation_HyvaIconsPayment::svg/default</argument>
+        </arguments>
+    </type>
+    <type name="Siteation\HyvaIconsPayment\ViewModel\PaymentIconsFlat">
+        <arguments>
+            <argument name="iconPathPrefix" xsi:type="string">Siteation_HyvaIconsPayment::svg/flat</argument>
+        </arguments>
+    </type>
+    <type name="Siteation\HyvaIconsPayment\ViewModel\PaymentIconsMono">
+        <arguments>
+            <argument name="iconPathPrefix" xsi:type="string">Siteation_HyvaIconsPayment::svg/mono</argument>
         </arguments>
     </type>
     <type name="Hyva\Theme\ViewModel\SvgIcons">
         <arguments>
             <argument name="pathPrefixMapping" xsi:type="array">
-                <item name="payment" xsi:type="string">Siteation_HyvaIconsPayment::svg/payment</item>
+                <item name="payment" xsi:type="string">Siteation_HyvaIconsPayment::svg</item>
             </argument>
         </arguments>
     </type>
