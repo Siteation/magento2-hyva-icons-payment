@@ -45,6 +45,16 @@ and use the PaymentIcons just as the HeroIcons in Hyva;
 <?= $paymentIcons->idealHtml('p-1', 24, 24, ["aria-label" => "Pay with iDeal"]) ?>
 ```
 
+### Variants
+
+We offer this icon pack in 3 variants;
+
+| style   | description                     | preview                                                                                                   |
+| ------- | ------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| Default | full colors icons with a box    | ![iDeal](./view/frontend/web/svg/default/ideal.svg) ![paypal](./view/frontend/web/svg/default/paypal.svg) |
+| Flat    | full colors icons without a box | ![iDeal](./view/frontend/web/svg/flat/ideal.svg) ![paypal](./view/frontend/web/svg/flat/paypal.svg)       |
+| Mono    | mono color icons without a box  | ![iDeal](./view/frontend/web/svg/mono/ideal.svg) ![paypal](./view/frontend/web/svg/mono/paypal.svg)       |
+
 ### Using SVG icons in CMS content
 
 You can now also use the SVG icons in your CMS content.
@@ -52,7 +62,7 @@ You can now also use the SVG icons in your CMS content.
 Bringing svg icon support to you CMS pages, Blocks and Widgets.
 
 ```txt
-{{icon "payment/ideal"}}
+{{icon "payment/default/ideal"}}
 ```
 
 [For more information on how and what see the Hyva Docs](https://docs.hyva.io/hyva-themes/writing-code/working-with-view-models/svgicons.html#using-svg-icons-in-cms-content)
@@ -70,4 +80,14 @@ Bringing svg icon support to you CMS pages, Blocks and Widgets.
 
 _If you are looking for a Luma based option [checkout this icon pack instead](https://github.com/GrimLink/magento2-icon-packs)._
 
+## Icon License
 
+The payment icons used in this module were created by Siteation under a MIT License
+
+## Disclaimer
+
+All used trademarks, brands and/or names are the property of their respective owners.
+
+The use of these trademarks,
+brands and/or names does not indicate endorsement of the property holder by us,
+nor vice versa.
