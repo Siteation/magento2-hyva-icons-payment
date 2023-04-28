@@ -42,7 +42,7 @@ $paymentIcons = $viewModels->require(PaymentIcons::class);
 and use the PaymentIcons just as the HeroIcons in Hyva;
 
 ```php
-<?= $paymentIcons->idealHtml('p-1', 24, 24, ["aria-label" => "Pay with iDeal"]) ?>
+<?= $paymentIcons->idealHtml('p-1', 64, 48, ["aria-label" => "Pay with iDeal"]) ?>
 ```
 
 ### Variants
