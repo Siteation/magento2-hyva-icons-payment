@@ -73,12 +73,7 @@ Bringing svg icon support to you CMS pages, Blocks and Widgets.
 
 ## Other icon packs for Hyva
 
-- Hero Icons (Default for Hyva)
-- [Lucide Icons](https://github.com/Siteation/magento2-hyva-icons-lucide)
-- [Bootstrap Icons](https://github.com/Siteation/magento2-hyva-icons-bootstrap)
-- [Feather Icons](https://github.com/Siteation/magento2-hyva-icons-feather)
-- [Payment Icons](https://gitlab.hyva.io/hyva-themes/magento2-payment-icons) (Requires Hyva Gitlab or License to access)
-- [Font Awesome 5 Icons](https://github.com/JaJuMa-GmbH/awesome-hyva)
+- For Icons packs see https://github.com/topics/hyva-icons
 
 _If you are looking for a Luma based option [checkout this icon pack instead](https://github.com/GrimLink/magento2-icon-packs)._
 
