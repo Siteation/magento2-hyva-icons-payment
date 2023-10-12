@@ -49,11 +49,20 @@ and use the PaymentIcons just as the HeroIcons in Hyva;
 
 We offer this icon pack in 3 variants;
 
-| style   | description                     | preview                                                                                                   |
-| ------- | ------------------------------- | --------------------------------------------------------------------------------------------------------- |
-| Default | full colors icons with a box    | ![iDeal](./view/frontend/web/svg/default/ideal.svg) ![paypal](./view/frontend/web/svg/default/paypal.svg) |
-| Flat    | full colors icons without a box | ![iDeal](./view/frontend/web/svg/flat/ideal.svg) ![paypal](./view/frontend/web/svg/flat/paypal.svg)       |
-| Mono    | mono color icons without a box  | ![iDeal](./view/frontend/web/svg/mono/ideal.svg) ![paypal](./view/frontend/web/svg/mono/paypal.svg)       |
+| style   | description                     | preview                                |
+| ------- | ------------------------------- | -------------------------------------- |
+| Default | full colors icons with a box    | ![ideal-logo] ![paypal-logo]           |
+| Flat    | full colors icons without a box | ![ideal-logo-flat] ![paypal-logo-flat] |
+| Mono    | mono color icons without a box  | ![ideal-logo-mono] ![paypal-logo-mono] |
+
+[ideal-logo]: ./view/frontend/web/svg/default/ideal.svg
+[paypal-logo]: ./view/frontend/web/svg/default/paypal.svg
+
+[ideal-logo-flat]: ./view/frontend/web/svg/flat/ideal.svg
+[paypal-logo-flat]: ./view/frontend/web/svg/flat/paypal.svg
+
+[ideal-logo-mono]: ./view/frontend/web/svg/mono/ideal.svg
+[paypal-logo-mono]: ./view/frontend/web/svg/mono/paypal.svg
 
 ### Using SVG icons in CMS content
 
