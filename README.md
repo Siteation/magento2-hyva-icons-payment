@@ -51,19 +51,19 @@ We offer this icon pack in 3 variants;
 
 #### Default
 
-![ideal-logo] ![paypal-logo] ![maestro-logo]
+![ideal-logo] ![maestro-logo] ![paypal-logo]
 
 [ideal-logo]: ./assets/preview/default/ideal.svg
-[paypal-logo]: ./assets/preview/default/paypal.svg
 [maestro-logo]: ./assets/preview/default/maestro.svg
+[paypal-logo]: ./assets/preview/default/paypal.svg
 
 #### Flat
 
-![ideal-logo-flat] ![paypal-logo-flat] ![maestro-logo-flat]
+![ideal-logo-flat] ![maestro-logo-flat] ![paypal-logo-flat]
 
 [ideal-logo-flat]: ./assets/preview/flat/ideal.svg
-[paypal-logo-flat]: ./assets/preview/flat/paypal.svg
 [maestro-logo-flat]: ./assets/preview/flat/maestro.svg
+[paypal-logo-flat]: ./assets/preview/flat/paypal.svg
 
 #### Mono
 
@@ -72,12 +72,12 @@ We offer this icon pack in 3 variants;
   <img alt="" src="./assets/preview/mono/ideal.svg">
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/preview/mono/paypal-dark.svg">
-  <img alt="" src="./assets/preview/mono/paypal.svg">
-</picture>
-<picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/preview/mono/maestro-dark.svg">
   <img alt="" src="./assets/preview/mono/maestro.svg">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/preview/mono/paypal-dark.svg">
+  <img alt="" src="./assets/preview/mono/paypal.svg">
 </picture>
 
 ### Using SVG icons in CMS content
