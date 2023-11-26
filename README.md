@@ -49,20 +49,36 @@ and use the PaymentIcons just as the HeroIcons in Hyva;
 
 We offer this icon pack in 3 variants;
 
-| style   | description                     | preview                                |
-| ------- | ------------------------------- | -------------------------------------- |
-| Default | full colors icons with a box    | ![ideal-logo] ![paypal-logo]           |
-| Flat    | full colors icons without a box | ![ideal-logo-flat] ![paypal-logo-flat] |
-| Mono    | mono color icons without a box  | ![ideal-logo-mono] ![paypal-logo-mono] |
+#### Default
 
-[ideal-logo]: ./view/frontend/web/svg/default/ideal.svg
-[paypal-logo]: ./view/frontend/web/svg/default/paypal.svg
+![ideal-logo] ![paypal-logo] ![maestro-logo]
 
-[ideal-logo-flat]: ./view/frontend/web/svg/flat/ideal.svg
-[paypal-logo-flat]: ./view/frontend/web/svg/flat/paypal.svg
+[ideal-logo]: ./assets/preview/default/ideal.svg
+[paypal-logo]: ./assets/preview/default/paypal.svg
+[maestro-logo]: ./assets/preview/default/maestro.svg
 
-[ideal-logo-mono]: ./view/frontend/web/svg/mono/ideal.svg
-[paypal-logo-mono]: ./view/frontend/web/svg/mono/paypal.svg
+#### Flat
+
+![ideal-logo-flat] ![paypal-logo-flat] ![maestro-logo-flat]
+
+[ideal-logo-flat]: ./assets/preview/flat/ideal.svg
+[paypal-logo-flat]: ./assets/preview/flat/paypal.svg
+[maestro-logo-flat]: ./assets/preview/flat/maestro.svg
+
+#### Mono
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/preview/mono/ideal-dark.svg">
+  <img alt="" src="./assets/preview/mono/ideal.svg">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/preview/mono/paypal-dark.svg">
+  <img alt="" src="./assets/preview/mono/paypal.svg">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/preview/mono/maestro-dark.svg">
+  <img alt="" src="./assets/preview/mono/maestro.svg">
+</picture>
 
 ### Using SVG icons in CMS content
 
