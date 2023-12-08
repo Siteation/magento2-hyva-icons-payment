@@ -45,9 +45,9 @@ and use the PaymentIcons just as the HeroIcons in Hyva;
 <?= $paymentIcons->idealHtml('p-1', 64, 48, ["aria-label" => "Pay with iDeal"]) ?>
 ```
 
-### Variants
+### Preview of each style
 
-We offer this icon pack in 3 variants;
+We offer this icon pack in 3 styles:
 
 #### Default
 
