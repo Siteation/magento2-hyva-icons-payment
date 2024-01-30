@@ -14,8 +14,10 @@ namespace Siteation\HyvaIconsPayment\ViewModel;
 /**
  * These method signatures were generated with bin/generate-icon-signatures
  *
+ * @method string abnB2bAfterpayHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string alipayHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string amazonpayHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
+ * @method string amexHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string applepayHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string bancontactHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string banktransferHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
@@ -32,6 +34,7 @@ namespace Siteation\HyvaIconsPayment\ViewModel;
  * @method string kbcHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string klarnaHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string maestroHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
+ * @method string mastercardHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string mybankHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string paypalHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string paysafecardHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
@@ -39,6 +42,7 @@ namespace Siteation\HyvaIconsPayment\ViewModel;
  * @method string rivertyHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string sepaHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string sofortHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
+ * @method string stripeHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string visaHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  */
 interface PaymentIconsInterface
