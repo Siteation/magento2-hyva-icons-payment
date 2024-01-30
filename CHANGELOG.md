@@ -10,6 +10,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - ABN B2B afterpay logo
 - MasterCard logo
 
+### Changed
+- Maestro Mono Logo to a version that is more inline with the other versions
+
 ## [1.0.3] - 2023-10-12
 ### Changed
 - Updated iDeal logo
