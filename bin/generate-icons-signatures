@@ -12,13 +12,34 @@ function dashesToCamelCase($string, $capitalizeFirstCharacter = false)
     return $str;
 }
 
-$iconPath = "view/frontend/web/svg/payment";
+$iconPath = "view/frontend/web/svg/default";
 $dir = dirname(__DIR__, 1) . "/" . $iconPath;
 $icons = array_diff(scandir($dir), array('..', '.'));
-$outputPath = dirname(__DIR__, 1) . "/bin/interface-icons.txt";
+$outputPath = dirname(__DIR__, 1) . "/ViewModel/PaymentIconsInterface.php";
 
 // Clean up file first
 file_put_contents($outputPath, "");
+
+// Set Head
+file_put_contents(
+  $outputPath,
+  "<?php declare(strict_types=1);
+
+/**
+ * Siteation - https://siteation.dev/
+ * Copyright © Siteation. All rights reserved.
+ * See LICENSE file for details.
+ */
+
+namespace Siteation\HyvaIconsPayment\ViewModel;
+
+// phpcs:disable Magento2.NamingConvention.InterfaceName.WrongInterfaceName
+// phpcs:disable Generic.Files.LineLength.TooLong
+
+/**
+ * These method signatures were generated with bin/generate-icon-signatures
+ *
+");
 
 // Create interface code
 foreach ($icons as &$icon) {
@@ -30,3 +51,10 @@ foreach ($icons as &$icon) {
 
     file_put_contents($outputPath, $string . "\n", FILE_APPEND);
 }
+
+// Set closing part of interface
+file_put_contents($outputPath, " */
+interface PaymentIconsInterface
+{
+}
+", FILE_APPEND);
