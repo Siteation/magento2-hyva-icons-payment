@@ -13,6 +13,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - Maestro Mono Logo to a version that is more inline with the other versions
 
+### Removed
+- Old iDeal fallback version
+
 ## [1.0.3] - 2023-10-12
 ### Changed
 - Updated iDeal logo
