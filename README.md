@@ -68,12 +68,12 @@ We offer this icon pack in 3 styles:
 #### Mono
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/preview/mono/ideal-dark.svg">
-  <img alt="" src="./assets/preview/mono/ideal.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/preview/mono/ideal-dark.svg?v=1.1.0">
+  <img alt="" src="./assets/preview/mono/ideal.svg?v=1.1.0">
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/preview/mono/maestro-dark.svg">
-  <img alt="" src="./assets/preview/mono/maestro.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/preview/mono/maestro-dark.svg?v=1.1.0">
+  <img alt="" src="./assets/preview/mono/maestro.svg?v=1.1.0">
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/preview/mono/paypal-dark.svg">
