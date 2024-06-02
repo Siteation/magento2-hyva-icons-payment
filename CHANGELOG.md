@@ -6,6 +6,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.0] - 2024-06-02
+### Added
+- mbway/multibanco logo
+- Trustly logo
+- Payconiq logo
+- WeChatPay logo
+- vpay logo
+- Stripe logo
+- Billie logo
+
+### Changed
+- Updated Giropay logo
+- Updated Riverty logo
+
 ## [1.1.0] - 2024-01-30
 ### Added
 - ABN B2B afterpay logo
