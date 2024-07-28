@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- Billink Logo, (Thanks to @ThijmenKort)
+
 ## [1.2.1] - 2024-06-02
 ### Added
 - alias for `przelewy24` and `in3` for calling it directly (the default method)
