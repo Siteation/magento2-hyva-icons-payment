@@ -107,6 +107,14 @@ We strive to keep this list of payment options and their logos accurate and up-t
 If you notice a missing icon or an outdated logo,
 please help us improve the list by opening an issue or, even better, submitting a pull request.
 
+## Enhance Your Store with Automatic Payment Icons
+
+This icon pack seamlessly integrates with our [StoreInfo Payments] module to automatically display payment icons based on your configured Magento 2 payment options.
+
+Interested, then checkout the [StoreInfo Payments] to display your Payment options Automatically!
+
+[StoreInfo Payments]: https://github.com/Siteation/magento2-storeinfo-payments
+
 ## Other Icon packs for Hyva
 
 - For Icons packs see https://github.com/topics/hyva-icons
