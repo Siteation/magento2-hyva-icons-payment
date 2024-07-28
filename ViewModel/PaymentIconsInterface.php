@@ -31,11 +31,14 @@ namespace Siteation\HyvaIconsPayment\ViewModel;
  * @method string googlepayHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string idealHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string in3Html(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
+ * @method string in3Html(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string kbcHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string klarnaHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string maestroHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string mastercardHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
+ * @method string multibancoHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string mybankHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
+ * @method string payconiqHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string paypalHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string paysafecardHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string przelewy24Html(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
@@ -43,7 +46,10 @@ namespace Siteation\HyvaIconsPayment\ViewModel;
  * @method string sepaHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string sofortHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string stripeHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
+ * @method string trustlyHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string visaHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
+ * @method string vpayHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
+ * @method string wechatpayHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  */
 interface PaymentIconsInterface
 {
