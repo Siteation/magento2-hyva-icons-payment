@@ -6,8 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.2] - 2024-07-28
 ### Added
 - Billink Logo, (Thanks to @ThijmenKort)
+
+### Fixed
+- Interface with missing icons from last release
 
 ## [1.2.1] - 2024-06-02
 ### Added
