@@ -96,7 +96,11 @@ Bringing svg icon support to you CMS pages, Blocks and Widgets.
 
 > This feature is supported since Hyva v1.1.12
 
-## Other icon packs for Hyva
+## Payment options offered in this Icon Pack
+
+ABN B2B Afterpay • Alipay • Amazon Pay • Amex • Apple Pay • Bancontact • Banktransfer • Belfius • Biller • Billink • Creditcard • Direct Debit • EPS • Giftcard • Giropay • Google Pay • iDeal • in3 • kbc • Klarna • Maestro • Mastercard • MultiBanco • MyBank • payconiq • PayPal • paysafecard • Przelewy24 • Riverty • Sepa • Sofort • Stripe • Trustly • Visa • vPay • WeChatpay
+
+## Other Icon packs for Hyva
 
 - For Icons packs see https://github.com/topics/hyva-icons
 
