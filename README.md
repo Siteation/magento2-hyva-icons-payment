@@ -100,6 +100,13 @@ Bringing svg icon support to you CMS pages, Blocks and Widgets.
 
 ABN B2B Afterpay • Alipay • Amazon Pay • Amex • Apple Pay • Bancontact • Banktransfer • Belfius • Biller • Billink • Creditcard • Direct Debit • EPS • Giftcard • Giropay • Google Pay • iDeal • in3 • kbc • Klarna • Maestro • Mastercard • MultiBanco • MyBank • payconiq • PayPal • paysafecard • Przelewy24 • Riverty • Sepa • Sofort • Stripe • Trustly • Visa • vPay • WeChatpay
 
+## Missing or Outdated Payment Icons?
+
+We strive to keep this list of payment options and their logos accurate and up-to-date.
+
+If you notice a missing icon or an outdated logo,
+please help us improve the list by opening an issue or, even better, submitting a pull request.
+
 ## Other Icon packs for Hyva
 
 - For Icons packs see https://github.com/topics/hyva-icons
