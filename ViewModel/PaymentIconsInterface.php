@@ -23,6 +23,7 @@ namespace Siteation\HyvaIconsPayment\ViewModel;
  * @method string banktransferHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string belfiusHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string billerHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
+ * @method string billinkHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string creditcardHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string directDebitHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string epsHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
