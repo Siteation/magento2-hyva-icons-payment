@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Fixed
+- iDeal stoke color in the flat version
 - Moved `SvgIcons` argument from global scope to frontend and adminthtml scope,
   this was overwritten by other icons arguments that are set on the frontend and adminthtml scope (Thanks to @woutk88)
 
