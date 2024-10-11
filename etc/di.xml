@@ -18,11 +18,4 @@
             <argument name="iconPathPrefix" xsi:type="string">Siteation_HyvaIconsPayment::svg/mono</argument>
         </arguments>
     </type>
-    <type name="Hyva\Theme\ViewModel\SvgIcons">
-        <arguments>
-            <argument name="pathPrefixMapping" xsi:type="array">
-                <item name="payment" xsi:type="string">Siteation_HyvaIconsPayment::svg</item>
-            </argument>
-        </arguments>
-    </type>
 </config>

@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+- Moved `SvgIcons` argument from global scope to frontend and adminthtml scope,
+  this was overwritten by other icons arguments that are set on the frontend and adminthtml scope (Thanks to @woutk88)
+
 ## [1.2.2] - 2024-07-28
 ### Added
 - Billink Logo, (Thanks to @ThijmenKort)
