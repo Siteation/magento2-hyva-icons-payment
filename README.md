@@ -59,25 +59,26 @@ We offer this icon pack in 3 styles:
 
 #### Flat
 
-![ideal-logo-flat] ![maestro-logo-flat] ![paypal-logo-flat]
-
-[ideal-logo-flat]: ./assets/preview/flat/ideal.svg
-[maestro-logo-flat]: ./assets/preview/flat/maestro.svg
-[paypal-logo-flat]: ./assets/preview/flat/paypal.svg
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/preview/flat/ideal-dark.svg?v=1.1.0">
+  <img alt="ideal-logo-flat" src="./assets/preview/flat/ideal.svg?v=1.1.0">
+</picture>
+<img alt="maestro-logo-mono" src="./assets/preview/flat/maestro.svg?v=1.1.0">
+<img alt="paypal-logo-mono" src="./assets/preview/flat/paypal.svg?v=1.1.0"> 
 
 #### Mono
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/preview/mono/ideal-dark.svg?v=1.1.0">
-  <img alt="" src="./assets/preview/mono/ideal.svg?v=1.1.0">
+  <img alt="ideal-logo-mono" src="./assets/preview/mono/ideal.svg?v=1.1.0">
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/preview/mono/maestro-dark.svg?v=1.1.0">
-  <img alt="" src="./assets/preview/mono/maestro.svg?v=1.1.0">
+  <img alt="maestro-logo-mono" src="./assets/preview/mono/maestro.svg?v=1.1.0">
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/preview/mono/paypal-dark.svg">
-  <img alt="" src="./assets/preview/mono/paypal.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/preview/mono/paypal-dark.svg?v=1.1.0">
+  <img alt="paypal-logo-mono" src="./assets/preview/mono/paypal.svg?v=1.1.0">
 </picture>
 
 ### Using SVG icons in CMS content
