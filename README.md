@@ -103,7 +103,7 @@ Bringing svg icon support to you CMS pages, Blocks and Widgets.
 
 ## Payment options offered in this Icon Pack
 
-ABN B2B Afterpay • Alipay • Amazon Pay • Amex • Apple Pay • Bancontact • Banktransfer • Belfius • Biller • Billink • Creditcard • Direct Debit • EPS • Giftcard • Giropay • Google Pay • iDeal • in3 • kbc • Klarna • Maestro • Mastercard • MultiBanco • MyBank • payconiq • PayPal • paysafecard • Przelewy24 • Riverty • Sepa • Sofort • Stripe • Trustly • Visa • vPay • WeChatpay
+ABN B2B Afterpay • Alipay • Amazon Pay • Amex • Apple Pay • Bancontact • Banktransfer • Belfius • Biller • Billink • Creditcard • Direct Debit • EPS • Giftcard • Giropay • Google Pay • iDeal • iDeal Wero • Wero • in3 • kbc • Klarna • Maestro • Mastercard • MultiBanco • MyBank • payconiq • PayPal • paysafecard • Przelewy24 • Riverty • Sepa • Sofort • Stripe • Trustly • Visa • vPay • WeChatpay
 
 ## Missing or Outdated Payment Icons?
 
