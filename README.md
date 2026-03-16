@@ -101,6 +101,17 @@ Bringing svg icon support to you CMS pages, Blocks and Widgets.
 
 > This feature is supported since Hyva v1.1.12
 
+### Prefix Mapping Behavior
+
+This module registers the `payment` SVG prefix for Hyva `SvgIcons`.
+
+That means:
+
+- `payment/default/*`, `payment/flat/*`, and `payment/mono/*` are resolved by this package.
+- If another module also registers the same `payment` prefix, the effective mapping depends on Magento module merge order.
+
+If you use multiple icon modules, verify prefix ownership and rendering in both frontend and adminhtml scope.
+
 ## Payment options offered in this Icon Pack
 
 ABN B2B Afterpay • Alipay • Amazon Pay • Amex • Apple Pay • Bancontact • Banktransfer • Belfius • Biller • Billink • Creditcard • Direct Debit • EPS • Giftcard • Giropay • Google Pay • iDeal • iDeal Wero • Wero • in3 • kbc • Klarna • Maestro • Mastercard • MultiBanco • MyBank • payconiq • PayPal • paysafecard • Przelewy24 • Riverty • Sepa • Sofort • Stripe • Trustly • Visa • vPay • WeChatpay
