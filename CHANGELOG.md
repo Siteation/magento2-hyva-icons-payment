@@ -6,10 +6,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## 1.2.6 - 2026-03-01
+
 ### Changed
 
 - Documented `payment` prefix mapping behavior and collision considerations in README.
 - Removed deprecated `setup_version` from `etc/module.xml`.
+- Updated Billie logo
+- Updated Bancontact logo
+
+### Fixed
+
+- Missing interface for wero logos
 
 ## 1.2.5 - 2026-02-14
 
