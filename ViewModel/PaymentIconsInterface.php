@@ -33,6 +33,7 @@ namespace Siteation\HyvaIconsPayment\ViewModel;
  * @method string giropayHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string googlepayHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string idealHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
+ * @method string idealWeroHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string in3Html(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string kbcHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string klarnaHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
@@ -52,6 +53,7 @@ namespace Siteation\HyvaIconsPayment\ViewModel;
  * @method string visaHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string vpayHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string wechatpayHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
+ * @method string weroHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  */
 interface PaymentIconsInterface
 {
