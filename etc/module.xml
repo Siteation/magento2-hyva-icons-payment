@@ -6,6 +6,7 @@
     <module name="Siteation_HyvaIconsPayment">
         <sequence>
             <module name="Hyva_Theme"/>
+            <module name="Siteation_IconsPayment"/>
         </sequence>
     </module>
 </config>

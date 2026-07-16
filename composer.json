@@ -1,9 +1,9 @@
 {
   "name": "siteation/magento2-hyva-icons-payment",
-  "version": "1.2.6",
+  "version": "2.0.0",
   "license": "MIT",
   "type": "magento2-module",
-  "description": "Payment icons for Hyva Themes",
+  "description": "Payment icons for Hyvä Themes — the Hyvä adapter over siteation/magento2-icons-payment (which owns the SVG library)",
   "keywords": [
     "magento2",
     "magento2-module",
@@ -18,7 +18,8 @@
     }
   ],
   "require": {
-    "hyva-themes/magento2-theme-module": ">=1.1.12"
+    "hyva-themes/magento2-theme-module": ">=1.1.12",
+    "siteation/magento2-icons-payment": ">=1.0.0"
   },
   "autoload": {
     "files": [
