@@ -6,6 +6,39 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## 2.0.0
+
+### Changed
+
+- **The SVG library moved to the new framework-agnostic package
+  `siteation/magento2-icons-payment`** (now a required dependency). This package
+  becomes a thin **Hyvä adapter**: its `SvgIcons`-based view models and the `payment`
+  prefix mapping now resolve their assets from `Siteation_IconsPayment::svg`. No change
+  to the view-model API or the Hyvä-CMS icon picker.
+- `PaymentIconsInterface` stays a type hint that declares nothing, so the view models
+  are never bound to a signature owned by Hyvä. Its per-icon `@method` hints mirror
+  the ones `siteation/magento2-icons-payment` generates.
+
+### Fixed
+
+- The Hyvä CMS icon picker resolves its previews in the adminhtml area, which has no
+  fallback into a module's `view/frontend`. `siteation/magento2-icons-payment` 1.0.1
+  serves the icons from `view/base`, so the `payment` prefix now resolves in both
+  areas.
+
+### Removed
+
+- `view/frontend/web/svg/*` (moved to `siteation/magento2-icons-payment`).
+- `bin/generate-icons-signatures` (moved to `siteation/magento2-icons-payment`).
+
+### Migration
+
+- Run `composer update` to pull in `siteation/magento2-icons-payment`, then
+  `bin/magento setup:upgrade`. Any code referencing the asset path
+  `Siteation_HyvaIconsPayment::svg/...` directly must switch to
+  `Siteation_IconsPayment::svg/...`. The `PaymentIcons`/`Flat`/`Mono` view models and
+  the `{{icon "payment/…"}}` tag are unchanged.
+
 ## 1.2.6 - 2026-04-01
 
 ### Changed

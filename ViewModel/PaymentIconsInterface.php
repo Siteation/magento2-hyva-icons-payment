@@ -12,8 +12,18 @@ namespace Siteation\HyvaIconsPayment\ViewModel;
 // phpcs:disable Generic.Files.LineLength.TooLong
 
 /**
- * These method signatures were generated with bin/generate-icon-signatures
+ * Type hint for the Hyvä payment icon view models.
  *
+ * Deliberately declares nothing. The view models extend Hyvä's SvgIcons, so binding
+ * this interface to a method signature would make a third party's signature a
+ * compile time requirement of this package. The hints below describe what SvgIcons
+ * already provides.
+ *
+ * They mirror Siteation\IconsPayment\ViewModel\PaymentIconsInterface, which
+ * siteation/magento2-icons-payment generates with bin/generate-icons-signatures.
+ * Copy that block over when the icon library changes.
+ *
+ * @method string renderHtml(string $icon, string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string abnB2bAfterpayHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string alipayHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string amazonpayHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
@@ -32,8 +42,8 @@ namespace Siteation\HyvaIconsPayment\ViewModel;
  * @method string giftcardHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string giropayHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string googlepayHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
- * @method string idealHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string idealWeroHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
+ * @method string idealHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string in3Html(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string kbcHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string klarnaHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])

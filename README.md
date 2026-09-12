@@ -5,10 +5,20 @@
 [![Hyva Themes Module](https://img.shields.io/badge/Hyva_Themes-Module-3df0af.svg?longCache=true&style=for-the-badge)](https://hyva.io/)
 ![License](https://img.shields.io/github/license/siteation/magento2-hyva-icons-payment?color=%23234&style=for-the-badge)
 
-This Magento 2 module adds the option to use Payment Icons in your Hyva frontend.
+This Magento 2 module is the **Hyvä adapter** for the payment-icon library. The SVG
+marks and the framework-agnostic renderer now live in
+[`siteation/magento2-icons-payment`](https://github.com/Siteation/magento2-icons-payment)
+(which works on **Luma, Hyvä, Nebula** or any theme); this package adds the **Hyvä-only**
+conveniences on top:
 
-This requires that you have a working Hyva frontend,
-this icon pack was made specifically for Hyva Themes and will not work out of the box with any other frontend.
+- Hyvä-CMS icon picker + `{{icon "payment/…"}}` template tag (the `payment` prefix
+  mapping), and
+- the `Siteation\HyvaIconsPayment\ViewModel\PaymentIcons` / `…Flat` / `…Mono` view
+  models (Hyvä `SvgIcons`-based), kept for backwards compatibility.
+
+**You only need this package for Hyvä-CMS icon authoring.** For plain rendering — in a
+Luma/Nebula theme, or a framework-agnostic surface like the Siteation standalone
+checkout — require `siteation/magento2-icons-payment` directly instead.
 
 ## Installation
 

@@ -3,19 +3,23 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd"
 >
+    <!--
+        The SVG library now lives in siteation/magento2-icons-payment (Hyvä-free);
+        these Hyvä view models resolve their assets from that module.
+    -->
     <type name="Siteation\HyvaIconsPayment\ViewModel\PaymentIcons">
         <arguments>
-            <argument name="iconPathPrefix" xsi:type="string">Siteation_HyvaIconsPayment::svg/default</argument>
+            <argument name="iconPathPrefix" xsi:type="string">Siteation_IconsPayment::svg/default</argument>
         </arguments>
     </type>
     <type name="Siteation\HyvaIconsPayment\ViewModel\PaymentIconsFlat">
         <arguments>
-            <argument name="iconPathPrefix" xsi:type="string">Siteation_HyvaIconsPayment::svg/flat</argument>
+            <argument name="iconPathPrefix" xsi:type="string">Siteation_IconsPayment::svg/flat</argument>
         </arguments>
     </type>
     <type name="Siteation\HyvaIconsPayment\ViewModel\PaymentIconsMono">
         <arguments>
-            <argument name="iconPathPrefix" xsi:type="string">Siteation_HyvaIconsPayment::svg/mono</argument>
+            <argument name="iconPathPrefix" xsi:type="string">Siteation_IconsPayment::svg/mono</argument>
         </arguments>
     </type>
 </config>
