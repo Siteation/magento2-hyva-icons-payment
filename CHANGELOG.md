@@ -15,9 +15,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   becomes a thin **Hyvä adapter**: its `SvgIcons`-based view models and the `payment`
   prefix mapping now resolve their assets from `Siteation_IconsPayment::svg`. No change
   to the view-model API or the Hyvä-CMS icon picker.
-- `PaymentIconsInterface` now extends the base interface in
-  `siteation/magento2-icons-payment`, so the per-icon `@method` hints are maintained in
-  one place.
+- `PaymentIconsInterface` stays a type hint that declares nothing, so the view models
+  are never bound to a signature owned by Hyvä. Its per-icon `@method` hints mirror
+  the ones `siteation/magento2-icons-payment` generates.
+
+### Fixed
+
+- The Hyvä CMS icon picker resolves its previews in the adminhtml area, which has no
+  fallback into a module's `view/frontend`. `siteation/magento2-icons-payment` 1.0.1
+  serves the icons from `view/base`, so the `payment` prefix now resolves in both
+  areas.
 
 ### Removed
 
